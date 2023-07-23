@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+	implementation libs.commons.beanutils
+	implementation libs.commons.lang3
+	
+}
